@@ -1,0 +1,26 @@
+solution:
+
+1. Testing `isFive(num)` Function:
+   - It checks if the function `isFive(num)` correctly returns `true` if the input is 5 and `false` otherwise.
+   - It tests with both valid input (5) and invalid input (not 5).
+   - Expected behavior:
+     - When the input is 5, it should return `true`.
+     - When the input is not 5, it should return `false`.
+
+2. Testing `isOdd(number)` Function:
+   - It checks if the function `isOdd(number)` correctly identifies odd and even numbers.
+   - It also checks whether the function throws an error if the input is not a number.
+   - Expected behavior:
+     - When the input is an odd number, it should return `true`.
+     - When the input is an even number, it should return `false`.
+     - When the input is not a number, it should throw an error.
+
+3. Testing `myRange(min, max, step)` Function:
+   - It tests the `myRange` function with different scenarios:
+     - If the step is not provided, it should default to 1.
+     - If the step is provided, it should use the provided step value.
+   - Expected behavior:
+     - It should return an array containing numbers from `min` to `max`, inclusive, with the specified step value.
+     - If the step value causes the range to be invalid (e.g., min > max or step is negative), it should return an empty array.
+
+In summary, the `specs.js` file is testing the correctness of three functions: `isFive`, `isOdd`, and `myRange`.
